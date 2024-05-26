@@ -1,0 +1,166 @@
+
+/* ===== MOBILE FIRST ===== */
+
+/* typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+body{
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+}
+
+#landing{
+    height: 100vh;
+    background: #000;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#landing img {
+    position: relative;
+    width: 100vw;
+    filter: opacity(0.4);
+    margin-top: 20px;
+   
+}
+
+.bannerl {
+    position: absolute;
+    color: #fff;
+    top: 0%;
+    right: 25%;
+}
+
+.logo{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.section {
+    background-color: #101010;
+}
+
+.section h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 200px;
+    text-shadow: 4px 4px 5px black;
+}
+
+#mainText{
+    font-size: 1.5em;
+    margin-top: 50vh;
+    color: #fff;
+    text-shadow: 4px 4px 5px black;
+}
+
+#intro{
+    margin-top: 0px;
+}
+
+.center {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.fra {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.textsob {
+    margin: 0px 0;
+}
+
+.textsob h2 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+.textsob p {
+    font-size: .9em;
+    text-align: justify;
+}
+
+.parallax {
+    filter: opacity(0.2);
+}
+
+.citar h2 {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bolder;   
+}
+
+.citar p {
+    color: #000;
+    font-style: italic;
+   
+}
+
+#p1{
+    height: 350px;
+    padding: 50px;
+    text-align: justify;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    padding: 5px;
+  }
+
+#work {
+    background-color: #101010;
+    padding: 80px 0;
+
+}
+
+#work h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.miferr {
+    
+    margin-top: 100px;
+}
+
+.miferr h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contferr {
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+}
+
+.cardferr {
+    flex-direction: column;
+    margin: auto; 
+    text-align: center;       
+}
+
+.cardferr p {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.rodape {
+    border: 1px solid #272829;
+}  

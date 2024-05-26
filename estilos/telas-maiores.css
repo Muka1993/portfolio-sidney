@@ -1,0 +1,65 @@
+/* typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+
+@media screen and (min-width: 1366px) and (max-width: 2600px) {
+
+body{
+    background-color: black;
+    color: rgba(255,255,255,0.8);
+}
+
+#landing{
+    height: 100vh;
+    background: linear-gradient(to top, red, black);
+    background-image: url('../imagens/sid-inlustrada-2.jpg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+
+.snome {
+    font-weight: bolder;
+    filter: drop-shadow(0 0 5px red);
+}
+
+
+#mainText{
+    margin-top: 30vh;
+}
+
+#intro{
+    margin-top: 50px;
+}
+
+#work{
+    background-color: rgb(61,61,61);
+}
+
+#card-1:hover {
+    box-shadow: 0 0 5px red;
+}
+
+#card-2:hover {
+    box-shadow: 0 0 5px red;
+}
+
+#card-3:hover {
+    box-shadow: 0 0 5px red;
+}
+
+
+#p1{
+    height: 350px;
+}
+
+}
